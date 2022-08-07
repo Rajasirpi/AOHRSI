@@ -280,7 +280,7 @@ def load_checkpoint(checkpoint, model):
 
     
 
-def save_predictions_as_images(loader, model, epoch, folder_dir='saved_images', device=DEVICE):
+def save_predictions_as_images(loader, model, epoch, device=DEVICE):
     model.eval()
     
     for index, (data, target) in enumerate(loader):
@@ -352,7 +352,7 @@ def main():
         if dice_list[-1] == max(dice_list):
             save_checkpoint(checkpoint)
         
-        save_predictions_as_images(loader=valid_loader, model=model, folder_dir='./output_images', device=DEVICE, epoch=epoch)
+        save_predictions_as_images(loader=valid_loader, model=model, device=DEVICE, epoch=epoch)
         
     if LOAD_MODEL:
         load_checkpoint(checkpoint=torch.load(f="my_checkpoint.pth.tar",map_location ='cpu'), model=model)
