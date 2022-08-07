@@ -30,17 +30,11 @@ These instructions will get you a copy of the project up and running on your loc
 
   `pip install virtualenv`
 
-  Reference link - https://pypi.org/project/virtualenv/
-
 #### Creating virtual environment
 
 - Create Virtual Environment 'env' as follows in the home path of the repository
 
   `virtualenv <env_name>`
-
-- If you have multiple python version installed and need to create virtual environment using a specific python version. Then use the following command
-
-  `virtualenv <env_name> -p <path_to_python_folder\python.exe>`
 
 #### Activate the Virtual Environment in Windows
 
@@ -61,14 +55,6 @@ These instructions will get you a copy of the project up and running on your loc
 - Perform all the above mentioned steps. Then download the data from the data files from the github.
 - Run the unet.py.
 - If you get system out of memory error. Try to run with 'GPU'.
-- To avoid this error, we have used google colab to run our script.
-- Inorder to use it in colab, download the data and upload in your drive and make the path chamges in the script and then run it.
-
-
-
-
-
-
-
-
-
+- To avoid this error, we have used google colab to run our script. 
+- Inorder to use it in colab, download the data and upload in your drive and make the path changes in the script.
+- In colab, >runtime >change runtime >type = "GPU" and then run it.
