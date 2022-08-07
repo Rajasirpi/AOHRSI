@@ -56,5 +56,6 @@ These instructions will get you a copy of the project up and running on your loc
 - Run the unet.py.
 - If you get system out of memory error. Try to run with 'GPU'.
 - To avoid this error, we have used google colab to run our script. 
-- Inorder to use it in colab, download the data and upload in your drive and make the path changes in the script.
+- Inorder to use it in colab, download the data and zip the data folder
+- Upload in your drive and make the path changes in the script.
 - In colab, >runtime >change runtime >type = "GPU" and then run it.
