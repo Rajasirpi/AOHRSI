@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-
 '''
 if you are using google colab, use the following lines mentioned below
 
 from google.colab import drive
 drive.mount('/content/gdrive') your google drive
-
 
 create a folder 'data' in your drive
 !unzip gdrive/My\ Drive/data/data.zip > /dev/null
@@ -13,13 +10,13 @@ create a folder 'data' in your drive
 
 '''Import the required packages before proceeding and if you are using colab add % before each pip install
 
-
 pip install segmentation-models-pytorch 
 pip install segmentation-models-pytorch torchsummary
 pip install segmentation-models
 
 '''
 
+#Imported the required modules
 import numpy as np 
 import pandas as pd
 import os
