@@ -59,3 +59,9 @@ These instructions will get you a copy of the project up and running on your loc
 - Inorder to use it in colab, download the data and zip the data folder.
 - Upload in your drive and make the path changes in the script.
 - In colab, >runtime >change runtime >type = "GPU" and then run it.
+
+#### Usual Errors
+
+- Dependency conflict errors
+- DataLoader errors: This is because of the lack of support of GPU in the system the program is run
+- Path contradictions
