@@ -7,12 +7,6 @@ Unet is a special type of Convolutional Neural Network and by using a U-Net Sema
 
 These instructions will get you a copy of the project up and running on your local machine. 
 
-### Cloning Project
-
-- Clone the Project to the development system
-
-  `https://github.com/Rajasirpi/AOHRSI.git`
-
 ### Prerequisites
 
 -Install Python 3.8
