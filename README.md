@@ -1,12 +1,7 @@
 
-# **Building segementation using Unet Algorithm**
+# **Building segmentation using Unet Algorithm**
 
 Unet is a special type of Convolutional Neural Network and by using a U-Net Semantic image segmentation can be achieved. Which is common and effective way to deal with this building detection and segmentation problems. U-Net also allows us to go above and beyond normal image classification and object detection, to classify the pixels of those objects in their exact shape. Hence we planned to use Unet instead of other deep learning methods.
-
-## **GIT path**
-
-- Git path - **https://github.com/Rajasirpi/AOHRSI**
-
 
 ## **Getting Started**
 
